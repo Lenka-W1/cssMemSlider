@@ -4,4 +4,45 @@
   padding: 0;
 }
 
+.wrapper {
+  height: 27rem;
+  margin: 10% calc(60% - 30%) 0;
+  position: relative;
+  width: 44rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.slider {
+  background-color: #ddd;
+  height: 80%;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  box-shadow: 0 0 1.25rem rgba(0, 0, 0, .5);
+}
+
+.wrapper > input {
+  display: none;
+}
+
+.slides {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.wrapper .controls {
+  position: relative;
+}
+
+.wrapper label {
+  cursor: pointer;
+  display: inline-block;
+  height: 1%;
+  position: relative;
+  width: 1%;
+  border-radius: 50%;
+}
+
 
